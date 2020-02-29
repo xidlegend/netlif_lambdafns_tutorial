@@ -4,7 +4,7 @@
 //     await (await fetch('http://localhost:9000/getusers')).json();
 
 const fetchUsers = async () =>
-    await (await fetch('/.netlify/functions/getusers')).json();
+    await (await fetch('/.netlify/functions/getUsers')).json();
 
 // Site Javascript to deal with response from
 // Lambda Function (in this case) getUser.js
